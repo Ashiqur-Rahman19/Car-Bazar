@@ -1,0 +1,593 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif !important;
+   
+}
+
+/* Header starts here */
+.nav-link{
+    color:#0D0A19;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 10px 10px;
+    
+}
+
+.sign-up{
+    color: #9A9EA7;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 6px 0px;
+}
+
+.nav-link img{
+    height: 32px;
+    width: 32px;
+    background: #F5F6F7;
+    padding: 7px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+/* Header ends here */
+
+/* Section 1 starts here */
+.section-1{
+    background-image: url(Img/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 560px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.section-1 h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: center;
+    color: white;
+    padding-top: 130px;
+}
+
+.section-1 p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: white;
+    padding-top: 17px;
+}
+
+.section-1-footer{
+    width: 945px;
+    height: 82px;
+    background-color: white;
+    padding: 0 15px;
+    border-radius: 10px;
+    position: absolute;
+    margin: auto 15%;
+    bottom: -38px;
+    box-shadow: 0px 3px 4px rgb(153, 155, 168, .25);
+    z-index: 99;
+  
+}
+
+.section-1-footer p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+    text-align: left;
+}
+
+.my-select{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+    margin: 10px -10px ;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    
+}
+
+.with-para{
+    margin-top: -15px;
+}
+
+.without-para{
+    margin-top: 30px;
+    border-right: 1px solid rgb(230, 230, 230);
+}
+
+.header-btn{
+    width: 120px;
+    height: 46px;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    background-color: #7963F0;
+    letter-spacing: -0.1px;
+    margin-top: -11px;
+    border-radius: 10px;
+}
+
+.button{
+    border-right: none;
+}
+
+.header-btn:hover{
+    color: white;
+}
+
+.header-btn img{
+    margin-right: 7px;
+    width: 13px;
+    height: 13px;
+}
+
+
+/* Section 1 ends here */
+
+
+/* Section 2 starts here */
+    .section-2{
+        margin-top: 150px;
+        margin-bottom: 90px;
+        text-align: center;  
+    }
+/* Section 2 ends here */
+
+/* Section 3 starts here */
+
+    .section-3{
+        margin-bottom: 90px;
+    }
+    .section-3 h2{
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: -0.1px;
+        color: #0D0A19;
+        text-align: center;
+        margin-bottom: 90px;
+    }
+
+    .section-3 h5{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 27px;
+        color: #0D0A19;
+    }
+
+    .section-3 p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: -0.1px;
+        color: #9A9EA7;
+    }
+
+    .section-3 span{
+        font-size: 30px;
+        margin: 0 5px;
+    }
+
+    .btn1{
+        width: 116px;
+        height: 46px;
+        background-color: #7963F0;
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 0;
+        transition: all .3s;
+    }
+
+    .btn1:hover{
+        color: #7963F0;
+        background-color: white;
+        border: 1px solid #7963F0;
+        transition: all .3s;
+    }
+
+    .btn2{
+        width: 116px;
+        height: 46px;
+        background-color: #9b8af8;
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 0;
+        transition: all .3s;
+    }
+
+    .btn2:hover{
+        color: #9b8af8;
+        background-color: white;
+        border: 1px solid #9b8af8;
+        transition: all .3s;
+    }
+
+    .buttons{
+        margin-left: 22px;
+        margin-top: 15px;
+    }
+
+    .card{
+        border-radius: 10px;
+        box-shadow: 0px 3px 4px rgb(153, 155, 168, .15), 0px -3px 4px rgb(153, 155, 168, .15);
+    }
+/* Section 3 ends here */
+
+/* Section 4 starts here */
+    .section_1{
+        margin-bottom: 100px;
+        
+    }
+    .section-4{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .section-4 h3{
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: -0.1px;
+        color: #0D0A19;
+        margin-bottom: 90px;
+    }
+
+    .section-4 p{
+        color: #9A9EA7;
+        margin-right: 15px;
+        margin-top: -70px;
+    }
+
+    .section-4 img{
+        padding: 10px 15px;
+        background-color: #f0f3f39c;
+        border-radius: 10px;
+        margin-left: 5px;
+    }
+
+    .product-section{
+        text-align: center;
+        display: flex;
+        overflow: hidden;
+        
+    }
+
+    .products{
+        margin-right: 70px;
+        left: 0px;
+        position: relative;
+        transition: .5s;
+        
+    }
+
+    .products p{
+        color: #0D0A19;
+        font-weight: 700;
+        font-size: 22px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    .product-btn{
+        background-color: #907dff;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .product-btn:hover{
+        color: white;
+    }
+
+    .pbtn{
+        margin-top: 20px;
+        background-color: white;
+        color: #7963F0;
+        border: 1px solid #7963F0;
+    }
+
+    .pbtn:hover{
+        color: #7963F0;
+    }
+/* Section 4 ends here */
+
+/* Section 5 starts here */
+    .section-5{
+        margin-bottom: 100px;
+    }
+   
+    .section-5-header{
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .section-5-header h2{
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 36px;
+        margin-left: 25px;
+        color: #0D0A19;
+    }
+
+    .section-5-header .btn{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #9A9EA7;
+    }
+
+    .find-text{
+        align-items: center;
+        justify-content: start;
+    }
+
+    .find-text-1 p{
+        margin-left: 1px !important;
+    }
+
+    .find-btn{
+        color: #0D0A19 !important;
+        border-radius: 10px !important;
+    }
+
+    .find-div p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #9A9EA7;
+        margin-bottom: 50px;
+        margin-left: 56px;
+    }
+
+    .find img{
+        width: 40px;
+        height: 40px;
+        margin: 0 50px;
+    }
+
+    .find-text-1 h5{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 27px;
+        color: #0D0A19;
+    }
+
+    .ft-1-icon img{
+        width: 20px;
+        height: 20px;
+        margin-top: 18px;
+        margin-left: 80px;
+    }
+
+    .find-2{
+        margin-left: 60px;
+        justify-content: flex-start;
+       
+    }
+
+   
+    .find-2 h6{
+        font-weight: 600;
+        font-size: 16px;
+        color: #0D0A19;
+        margin-bottom: 10.5px; 
+       
+       
+    }
+
+    .find-2 p{
+        font-weight: 300;
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 8px;
+        position: absolute;
+        right: 500px;
+       
+    }
+
+    .find-3{
+        margin-left: 60px;
+        justify-content: flex-start; 
+    }
+
+    .find3{
+        margin-top: 72px;
+    }
+
+    .find-3 h6{
+        font-weight: 600;
+        font-size: 16px;
+        color: #0D0A19;
+        margin-bottom: 10.5px; 
+       
+    }
+
+    .find-3 p{
+        font-weight: 300;
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 8px;
+        position: absolute;
+        right: 120px;
+       
+    } 
+/* Section 5 ends here */
+
+/* Section 6 starts here */
+    .section-6{
+        background-color: #F5F6F7;
+        padding: 70px 100px;
+    }
+
+    .section-6-div h5{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: -0.1px;
+        color: #0D0A19;
+    }
+
+    .section-6-div p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 33px;
+        letter-spacing: -0.1px;
+        color:#9A9EA7;
+    }
+/* Section 6 ends here */
+
+/* Footer starts here */
+    .footer{
+        padding: 20px;
+        background-color: white;
+        margin-bottom: 0;
+    }
+
+    .my-footer{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .my-footer h6{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: -0.1px;
+        margin-right: 15px;
+        color: #0D0A19;
+    }
+
+    .my-footer h5{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: -0.1px;
+        color: #9A9EA7;
+    }
+
+    .my-footer2{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .my-footer2 h5{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: -0.1px;
+        margin-right: 20px;
+        color: #9A9EA7;
+    }
+
+    .my-footer2 img{
+       margin-right: 10px;
+    }
+/* Footer ends here */
+
+
+
+
+/* Responsive part starts here */
+
+@media all and (max-width:767px){
+    .section-1 h1{
+        font-size: 39px;
+    }
+    
+    .section-1 p{
+        font-size: 15px;
+    }
+    
+    .section-1-footer{
+        width: 95%;
+        margin-left: 2.5%;
+        border-radius: 5px;
+    }
+    
+    .header-btn{
+        width: 85%;
+    }
+
+    .section-2{
+        margin-top: 450px;
+    }
+
+    .section-2 img{
+        margin-top: 25px;
+    }
+
+   .card{
+    margin-top: 50px;
+   }
+
+   .buttons{
+    width: 90%;
+   }
+
+   .product-section{
+    padding-left: 70px;
+   }
+
+   .section-5-header{
+    text-align: center;
+    margin-bottom: 30px;
+   }
+
+   .section-5-header h2{
+    margin-bottom: 20px;
+   }
+
+  .find-2 p{
+    margin-right: -380px;
+    
+  }
+
+  .find3{
+    margin-top: -3px;
+  }
+
+  .section-6{
+    padding: 50px 0;
+  }
+
+  .col-lg-3{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .my-footer{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .my-footer2{
+    display: block;
+    width: 100%;
+    text-align: center;
+  } 
+}
